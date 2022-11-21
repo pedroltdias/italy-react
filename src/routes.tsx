@@ -10,11 +10,11 @@ export default function AppRouter() {
 			<Router>
 				<Roteiro />
 				<Routes>
-					<Route path="/">
-						<Route index element={<Inicio />} />
-						<Route path="roteiro" element={<Roteiro />} />
-						<Route path="sobre" element={<Sobre />} />
-					</Route>
+					<Route index element={<Inicio />} />
+					<Route path="roteiro" element={<Roteiro />} />
+					<Route path="sobre" element={<Sobre />} />
+					{/* <Route path="/"> */}
+					{/* </Route> */}
 				</Routes>
 			</Router>
 		</main>
