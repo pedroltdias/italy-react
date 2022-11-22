@@ -1,0 +1,75 @@
+@import 'styles/variaveis';
+@import 'styles/breakpoints';
+
+$liguria: #d73b3b;
+$alpes: #30201e;
+$lombardia: #e6c864;
+$sicilia: #80aa40;
+$sardenha: #b6360f;
+
+.tags {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	max-width: 700px;
+
+	@media (max-width: $desktop_xsm) {
+		justify-content: flex-end;
+	}
+
+	@media (max-width: $mobile) {
+		justify-content: flex-start;
+	}
+
+	div {
+		margin: 10px;
+	}
+
+	&__tipo {
+		align-items: center;
+		border-radius: 2px;
+		display: flex;
+		font-weight: bold;
+		height: 40px;
+		justify-content: center;
+		padding: 10px 30px;
+
+		&__liguria {
+			background-color: $liguria;
+			color: white;
+		}
+
+		&__alpes {
+			background-color: $alpes;
+			color: white;
+		}
+
+		&__lombardia {
+			background-color: $lombardia;
+		}
+
+		&__sicilia {
+			background-color: $sicilia;
+		}
+
+		&__sardenha {
+			background-color: $sardenha;
+		}
+	}
+
+	&__porcao,
+	&__qtdpessoas,
+	&__valor {
+		align-items: center;
+		display: flex;
+		font-size: 1.25rem;
+		font-weight: bold;
+		justify-content: center;
+	}
+
+	&__valor {
+		color: $red;
+		font-size: 1.7rem;
+	}
+}
