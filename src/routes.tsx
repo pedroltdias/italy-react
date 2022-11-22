@@ -5,8 +5,8 @@ import Inicio from "pages/Inicio";
 import Inexistente from "pages/Inexistente";
 import Roteiro from "pages/Roteiro";
 import Sobre from "pages/Sobre";
+import Footer from "components/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Footer from "pages/Footer";
 
 export default function AppRouter() {
 	return (
