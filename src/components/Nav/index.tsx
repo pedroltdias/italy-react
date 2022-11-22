@@ -9,7 +9,7 @@ export default function Menu() {
 			to: "/"
 		},
 		{
-			label: "Cardápio",
+			label: "Menu",
 			to: "/menu"
 		},
 		{
