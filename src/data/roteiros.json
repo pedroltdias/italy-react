@@ -1,0 +1,14 @@
+[
+	{
+		"title": "Roteiro Ligúria",
+		"description": "Viagem pela Ligúria",
+		"photo": "/assets/imagens/capa/liguria.png",
+		"id": 1,
+		"price": 100.0,
+		"duration": 7,
+		"category": {
+			"id": 1,
+			"label": "Terrestre"
+		}
+	}
+]
