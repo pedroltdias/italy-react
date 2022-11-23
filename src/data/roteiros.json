@@ -2,25 +2,253 @@
 	{
 		"title": "Roteiro Ligúria",
 		"description": "Viagem pela Ligúria",
-		"photo": "/assets/imagens/capa/liguria.png",
+		"photo": "/assets/roteiros/liguria/liguria.jpg",
 		"id": 1,
 		"price": 100.0,
 		"duration": 7,
 		"category": {
 			"id": 1,
-			"label": "Terrestre"
+			"label": "Liguria"
 		}
 	},
 	{
 		"title": "Gênova",
 		"description": "Roteiro de um final semana em Gênova!",
-		"photo": "/assets/liguria/genova.jpg",
+		"photo": "/assets/roteiros/liguria/genova.jpg",
 		"id": 2,
 		"price": 59.9,
 		"duration": 3,
 		"category": {
 			"id": 1,
-			"label": "Terrestre"
+			"label": "Liguria"
+		}
+	},
+	{
+		"title": "Impéria",
+		"description": "Um dia em Impéria",
+		"photo": "/assets/roteiros/liguria/imperia.jpg",
+		"id": 3,
+		"price": 15.3,
+		"duration": 1,
+		"category": {
+			"id": 1,
+			"label": "Liguria"
+		}
+	},
+	{
+		"title": "La Spezia",
+		"description": "Quatro dias em La Spezia!",
+		"photo": "/assets/roteiros/liguria/laSpezia.jpg",
+		"id": 4,
+		"price": 70.0,
+		"duration": 4,
+		"category": {
+			"id": 1,
+			"label": "Liguria"
+		}
+	},
+	{
+		"title": "Savona",
+		"description": "Cinco dias em Savona!",
+		"photo": "/assets/roteiros/liguria/savona.jpg",
+		"id": 5,
+		"price": 120.0,
+		"duration": 5,
+		"category": {
+			"id": 1,
+			"label": "Liguria"
+		}
+	},
+	{
+		"title": "Alpes Ocidentais",
+		"description": "Quinze dias nos alpes ocidentais!",
+		"photo": "/assets/roteiros/liguria/laSpezia.jpg",
+		"id": 6,
+		"price": 235.00,
+		"duration": 15,
+		"category": {
+			"id": 2,
+			"label": "Alpes"
+		}
+	},
+	{
+		"title": "Alpes Orientais",
+		"description": "Quinze dias nos alpes orientais!",
+		"photo": "/assets/roteiros/liguria/savona.jpg",
+		"id": 7,
+		"price": 240.0,
+		"duration": 15,
+		"category": {
+			"id": 2,
+			"label": "Alpes"
+		}
+	},
+	{
+		"title": "Milão",
+		"description": "Sete dias em Milão!",
+		"photo": "/assets/roteiros/liguria/laSpezia.jpg",
+		"id": 8,
+		"price": 210.00,
+		"duration": 7,
+		"category": {
+			"id": 3,
+			"label": "Lombardia"
+		}
+	},
+	{
+		"title": "Bréscia",
+		"description": "Sete dias em Bréscia!",
+		"photo": "/assets/roteiros/liguria/laSpezia.jpg",
+		"id": 9,
+		"price": 127.00,
+		"duration": 7,
+		"category": {
+			"id": 3,
+			"label": "Lombardia"
+		}
+	},
+	{
+		"title": "Monza",
+		"description": "Seis dias em Monza!",
+		"photo": "/assets/roteiros/liguria/laSpezia.jpg",
+		"id": 10,
+		"price": 110.00,
+		"duration": 6,
+		"category": {
+			"id": 3,
+			"label": "Lombardia"
+		}
+	},
+	{
+		"title": "Bergamo",
+		"description": "Quatro dias em Bergamo!",
+		"photo": "/assets/roteiros/liguria/laSpezia.jpg",
+		"id": 11,
+		"price": 105.00,
+		"duration": 4,
+		"category": {
+			"id": 3,
+			"label": "Lombardia"
+		}
+	},
+	{
+		"title": "Varese",
+		"description": "Três dias em Varese!",
+		"photo": "/assets/roteiros/liguria/laSpezia.jpg",
+		"id": 12,
+		"price": 47.00,
+		"duration": 3,
+		"category": {
+			"id": 3,
+			"label": "Lombardia"
+		}
+	},
+	{
+		"title": "Agrigento",
+		"description": "Seis dias em Agrigento!",
+		"photo": "/assets/roteiros/liguria/laSpezia.jpg",
+		"id": 13,
+		"price": 110.00,
+		"duration": 6,
+		"category": {
+			"id": 4,
+			"label": "Sicilia"
+		}
+	},
+	{
+		"title": "Catania",
+		"description": "Quatro dias em Catania!",
+		"photo": "/assets/roteiros/liguria/laSpezia.jpg",
+		"id": 14,
+		"price": 105.00,
+		"duration": 4,
+		"category": {
+			"id": 4,
+			"label": "Sicilia"
+		}
+	},
+	{
+		"title": "Enna",
+		"description": "Seis dias em Enna!",
+		"photo": "/assets/roteiros/liguria/laSpezia.jpg",
+		"id": 15,
+		"price": 110.00,
+		"duration": 6,
+		"category": {
+			"id": 4,
+			"label": "Sicilia"
+		}
+	},
+	{
+		"title": "Palermo",
+		"description": "Quatro dias em Palermo!",
+		"photo": "/assets/roteiros/liguria/laSpezia.jpg",
+		"id": 16,
+		"price": 105.00,
+		"duration": 4,
+		"category": {
+			"id": 4,
+			"label": "Sicilia"
+		}
+	},
+	{
+		"title": "Siracusa",
+		"description": "Quatro dias em Siracusa!",
+		"photo": "/assets/roteiros/liguria/laSpezia.jpg",
+		"id": 17,
+		"price": 105.00,
+		"duration": 4,
+		"category": {
+			"id": 4,
+			"label": "Sicilia"
+		}
+	},
+	{
+		"title": "Sassari",
+		"description": "Seis dias em Sassari!",
+		"photo": "/assets/roteiros/liguria/laSpezia.jpg",
+		"id": 18,
+		"price": 110.00,
+		"duration": 6,
+		"category": {
+			"id": 5,
+			"label": "Sardenha"
+		}
+	},
+	{
+		"title": "Nuoro",
+		"description": "Quatro dias em Nuoro!",
+		"photo": "/assets/roteiros/liguria/laSpezia.jpg",
+		"id": 19,
+		"price": 105.00,
+		"duration": 4,
+		"category": {
+			"id": 5,
+			"label": "Sardenha"
+		}
+	},
+	{
+		"title": "Oristano",
+		"description": "Seis dias em Oristano!",
+		"photo": "/assets/roteiros/liguria/laSpezia.jpg",
+		"id": 20,
+		"price": 110.00,
+		"duration": 6,
+		"category": {
+			"id": 5,
+			"label": "Sardenha"
+		}
+	},
+	{
+		"title": "Ogliastra",
+		"description": "Quatro dias em Ogliastra!",
+		"photo": "/assets/roteiros/liguria/laSpezia.jpg",
+		"id": 21,
+		"price": 105.00,
+		"duration": 4,
+		"category": {
+			"id": 5,
+			"label": "Sardenha"
 		}
 	}
 ]
