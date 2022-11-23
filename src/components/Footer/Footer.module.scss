@@ -1,21 +1,33 @@
 @import "styles/variaveis";
 @import "styles/breakpoints";
 
+p {
+	color: black;
+	font-size: 1.5rem;
+	display: inline-block;
+	margin-top: 6rem;
+	padding-left: 1rem;
+}
+
+
 .footer {
+	
 	background-color: #E6E8FA;
 	display: flex;
-	justify-content: flex-end;
-	padding: 20px $padding-horizontal;
+	justify-content: flex-start;
+	padding: 2px $padding-horizontal;
 
 	@media (max-width: $desktop_xsm) {
-		padding: 20px $padding-horizontal-mobile;
+		padding: 2px $padding-horizontal-mobile;
 	}
 
 	@media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
-		padding: 20px $padding-horizontal-sm;
+		padding: 2px $padding-horizontal-sm;
 	}
 
 	@media (min-width: $desktop_sm) and (max-width: $desktop_md) {
-		padding: 20px $padding-horizontal-md;
+		padding: 2px $padding-horizontal-md;
 	}
+
 }
+
