@@ -10,5 +10,17 @@
 			"id": 1,
 			"label": "Terrestre"
 		}
+	},
+	{
+		"title": "Gênova",
+		"description": "Roteiro de um final semana em Gênova!",
+		"photo": "/assets/liguria/genova.jpg",
+		"id": 2,
+		"price": 59.9,
+		"duration": 3,
+		"category": {
+			"id": 1,
+			"label": "Terrestre"
+		}
 	}
 ]
