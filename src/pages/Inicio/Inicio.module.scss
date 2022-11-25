@@ -51,17 +51,15 @@
 		align-items: center;
 		background-color: $dark;
 		border-radius: 5px;
-		bottom: -45px;
 		color: white;
 		display: flex;
 		flex-direction: column;
 		font-weight: bold;
 		height: 100px;
 		justify-content: center;
-		position: absolute;
-		margin: 0 auto;
-		left: 0;
-		right: 0;
-		width: 200px;
+		position: relative;
+		width: 30%;
+		height: auto;
+		font-size: 18px;
 	}
 }

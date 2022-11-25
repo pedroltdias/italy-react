@@ -8,18 +8,18 @@
 	background-repeat: no-repeat;
 	display: flex;
 	height: 300px;
-	padding: 0px $padding-horizontal;
+	padding:2px $padding-horizontal;
 
 	@media (max-width: $desktop_xsm) {
-		padding: 0px $padding-horizontal-mobile;
+		padding: 2px $padding-horizontal-mobile;
 	}
 
 	@media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
-		padding: 0px $padding-horizontal-sm;
+		padding: 2px $padding-horizontal-sm;
 	}
 
 	@media (min-width: $desktop_sm) and (max-width: $desktop_md) {
-		padding: 0px $padding-horizontal-md;
+		padding: 2px $padding-horizontal-md;
 	}
 
 	&__text {
@@ -27,5 +27,6 @@
 		font-size: 5rem;
 		min-width: 400px;
 		width: 40%;
+		white-space: nowrap;
 	}
 }

@@ -37,9 +37,9 @@ export default function Inicio() {
 			</div>
 			<h3 className={stylesTema.titulo}>Nossa Casa</h3>
 			<div className={styles.nossaCasa}>
-				<img src={nossaCasa} alt="Casa do Aluroni" />
 				<div className={styles.nossaCasa__endereco}>
-					SCLS 312, Loja 36  <br /><br /> Brasília - DF
+					<img src={nossaCasa} alt="Casa do Aluroni" />
+					SCLS 312, Loja 36 - Brasília - DF
 				</div>
 			</div>
 		</section>
