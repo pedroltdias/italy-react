@@ -3,6 +3,12 @@
 	gap: 20px;
 	margin-bottom: 50px;
 
+	&__imagem {
+		width: 35rem;
+		height: 20rem;
+		justify-content: center;
+	}
+
 	&__texto {
 		display: flex;
 		flex-direction: column;

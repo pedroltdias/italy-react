@@ -11,7 +11,7 @@ export default function Sobre() {
 		<section>
 			<h3 className={stylesTema.titulo}> Sobre </h3>
 			<div className={styles.sobreNos}>
-				<img src={casa} alt="Italy" />
+				<img className={styles.sobreNos__imagem} src={casa} alt="Italy" />
 				<div className={styles.sobreNos__texto}>
 					<p>
 						Nós do Italy oferecemos a vocês, nossos queridos clientes, a os roteiros mais sofisticados, confortáveis e cativantes! Prezamos pelo bem-estar de nossos clientes, assim fazemos as melhores rotas e aproveitamos o tempo do cliente da melhor forma possível para que sua experiência seja ainda mais intensa!
