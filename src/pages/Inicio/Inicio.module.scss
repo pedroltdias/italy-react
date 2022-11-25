@@ -40,7 +40,7 @@
 .nossaCasa {
 	margin-bottom: 100px;
 	position: relative;
-	width: 100%;
+	width: 60%;
 
 	img {
 		border-radius: 5px;
@@ -56,12 +56,12 @@
 		display: flex;
 		flex-direction: column;
 		font-weight: bold;
+		width: 280px;
 		height: 100px;
 		justify-content: center;
 		position: absolute;
 		margin: 0 auto;
 		left: 0;
 		right: 0;
-		width: 200px;
 	}
 }
