@@ -34,5 +34,53 @@
 			"id": 1,
 			"label": "Liguria"
 		}
+	},
+	{
+		"title": "La Spezia",
+		"description": "Quatro dias em La Spezia!",
+		"photo": "/assets/roteiro/liguria/la_pezia.jpg",
+		"id": 4,
+		"price": 70.0,
+		"duration": 4,
+		"category": {
+			"id": 1,
+			"label": "Liguria"
+		}
+	},
+	{
+		"title": "Savona",
+		"description": "Cinco dias em Savona!",
+		"photo": "/assets/roteiro/liguria/savona.jpg",
+		"id": 5,
+		"price": 120.0,
+		"duration": 5,
+		"category": {
+			"id": 1,
+			"label": "Liguria"
+		}
+	},
+	{
+		"title": "Alpes Ocidentais",
+		"description": "Quinze dias nos alpes ocidentais!",
+		"photo": "/assets/roteiro/liguria/alpes_ocidentais.jpg",
+		"id": 6,
+		"price": 235.00,
+		"duration": 15,
+		"category": {
+			"id": 2,
+			"label": "Alpes"
+		}
+	},
+	{
+		"title": "Alpes Orientais",
+		"description": "Quinze dias nos alpes orientais!",
+		"photo": "/assets/roteiro/liguria/alpes_orientais.jpg",
+		"id": 7,
+		"price": 240.0,
+		"duration": 15,
+		"category": {
+			"id": 2,
+			"label": "Alpes"
+		}
 	}
 ]
