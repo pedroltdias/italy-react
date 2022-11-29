@@ -2,7 +2,7 @@
 	{
 		"title": "Roteiro Ligúria",
 		"description": "Viagem pela Ligúria",
-		"photo": "/assets/roteiro/liguria/liguria.jpg",
+		"photo": "/assets/roteiros/liguria/liguria.jpg",
 		"id": 1,
 		"price": 100.0,
 		"duration": 7,
@@ -14,7 +14,7 @@
 	{
 		"title": "Gênova",
 		"description": "Roteiro de um final semana em Gênova!",
-		"photo": "/assets/roteiro/liguria/genova.jpg",
+		"photo": "/assets/roteiros/liguria/genova.jpg",
 		"id": 2,
 		"price": 59.9,
 		"duration": 3,
@@ -26,7 +26,7 @@
 	{
 		"title": "Impéria",
 		"description": "Um dia em Impéria",
-		"photo": "/assets/roteiro/liguria/imperia.jpg",
+		"photo": "/assets/roteiros/liguria/imperia.jpg",
 		"id": 3,
 		"price": 15.3,
 		"duration": 1,
@@ -38,7 +38,7 @@
 	{
 		"title": "La Spezia",
 		"description": "Quatro dias em La Spezia!",
-		"photo": "/assets/roteiro/liguria/la_pezia.jpg",
+		"photo": "/assets/roteiros/liguria/laSpezia.jpg",
 		"id": 4,
 		"price": 70.0,
 		"duration": 4,
@@ -50,7 +50,7 @@
 	{
 		"title": "Savona",
 		"description": "Cinco dias em Savona!",
-		"photo": "/assets/roteiro/liguria/savona.jpg",
+		"photo": "/assets/roteiros/liguria/savona.jpg",
 		"id": 5,
 		"price": 120.0,
 		"duration": 5,
@@ -62,7 +62,7 @@
 	{
 		"title": "Alpes Ocidentais",
 		"description": "Quinze dias nos alpes ocidentais!",
-		"photo": "/assets/roteiro/liguria/alpes_ocidentais.jpg",
+		"photo": "/assets/roteiros/alpes/alpesOcidentais.jpg",
 		"id": 6,
 		"price": 235.00,
 		"duration": 15,
@@ -74,13 +74,181 @@
 	{
 		"title": "Alpes Orientais",
 		"description": "Quinze dias nos alpes orientais!",
-		"photo": "/assets/roteiro/liguria/alpes_orientais.jpg",
+		"photo": "/assets/roteiros/alpes/alpesOrientais.jpg",
 		"id": 7,
 		"price": 240.0,
 		"duration": 15,
 		"category": {
 			"id": 2,
 			"label": "Alpes"
+		}
+	},
+	{
+		"title": "Milão",
+		"description": "Sete dias em Milão!",
+		"photo": "/assets/roteiros/lombardia/milao.jpg",
+		"id": 8,
+		"price": 210.00,
+		"duration": 7,
+		"category": {
+			"id": 3,
+			"label": "Lombardia"
+		}
+	},
+	{
+		"title": "Bréscia",
+		"description": "Sete dias em Bréscia!",
+		"photo": "/assets/roteiros/lombardia/brescia.jpg",
+		"id": 9,
+		"price": 127.00,
+		"duration": 7,
+		"category": {
+			"id": 3,
+			"label": "Lombardia"
+		}
+	},
+	{
+		"title": "Monza",
+		"description": "Seis dias em Monza!",
+		"photo": "/assets/roteiros/lombardia/monza.jpg",
+		"id": 10,
+		"price": 110.00,
+		"duration": 6,
+		"category": {
+			"id": 3,
+			"label": "Lombardia"
+		}
+	},
+	{
+		"title": "Bergamo",
+		"description": "Quatro dias em Bergamo!",
+		"photo": "/assets/roteiros/lombardia/bergamo.jpg",
+		"id": 11,
+		"price": 105.00,
+		"duration": 4,
+		"category": {
+			"id": 3,
+			"label": "Lombardia"
+		}
+	},
+	{
+		"title": "Varese",
+		"description": "Três dias em Varese!",
+		"photo": "/assets/roteiros/lombardia/varese.jpg",
+		"id": 12,
+		"price": 47.00,
+		"duration": 3,
+		"category": {
+			"id": 3,
+			"label": "Lombardia"
+		}
+	},
+	{
+		"title": "Agrigento",
+		"description": "Seis dias em Agrigento!",
+		"photo": "/assets/roteiros/sicilia/agrigento.jpg",
+		"id": 13,
+		"price": 110.00,
+		"duration": 6,
+		"category": {
+			"id": 4,
+			"label": "Sicilia"
+		}
+	},
+	{
+		"title": "Catania",
+		"description": "Quatro dias em Catania!",
+		"photo": "/assets/roteiros/sicilia/catania.jpg",
+		"id": 14,
+		"price": 105.00,
+		"duration": 4,
+		"category": {
+			"id": 4,
+			"label": "Sicilia"
+		}
+	},
+	{
+		"title": "Enna",
+		"description": "Seis dias em Enna!",
+		"photo": "/assets/roteiros/sicilia/enna.jpg",
+		"id": 15,
+		"price": 110.00,
+		"duration": 6,
+		"category": {
+			"id": 4,
+			"label": "Sicilia"
+		}
+	},
+	{
+		"title": "Palermo",
+		"description": "Quatro dias em Palermo!",
+		"photo": "/assets/roteiros/sicilia/palermo.jpg",
+		"id": 16,
+		"price": 105.00,
+		"duration": 4,
+		"category": {
+			"id": 4,
+			"label": "Sicilia"
+		}
+	},
+	{
+		"title": "Siracusa",
+		"description": "Quatro dias em Siracusa!",
+		"photo": "/assets/roteiros/sicilia/siracusa.jpg",
+		"id": 17,
+		"price": 105.00,
+		"duration": 4,
+		"category": {
+			"id": 4,
+			"label": "Sicilia"
+		}
+	},
+	{
+		"title": "Sassari",
+		"description": "Seis dias em Sassari!",
+		"photo": "/assets/roteiros/sardenha/sassari.jpg",
+		"id": 18,
+		"price": 110.00,
+		"duration": 6,
+		"category": {
+			"id": 5,
+			"label": "Sardenha"
+		}
+	},
+	{
+		"title": "Nuoro",
+		"description": "Quatro dias em Nuoro!",
+		"photo": "/assets/roteiros/sardenha/nuoro.jpg",
+		"id": 19,
+		"price": 105.00,
+		"duration": 4,
+		"category": {
+			"id": 5,
+			"label": "Sardenha"
+		}
+	},
+	{
+		"title": "Oristano",
+		"description": "Seis dias em Oristano!",
+		"photo": "/assets/roteiros/sardenha/oristano.jpg",
+		"id": 20,
+		"price": 110.00,
+		"duration": 6,
+		"category": {
+			"id": 5,
+			"label": "Sardenha"
+		}
+	},
+	{
+		"title": "Ogliastra",
+		"description": "Quatro dias em Ogliastra!",
+		"photo": "/assets/roteiros/sardenha/ogliastra.jpg",
+		"id": 21,
+		"price": 105.00,
+		"duration": 4,
+		"category": {
+			"id": 5,
+			"label": "Sardenha"
 		}
 	}
 ]
