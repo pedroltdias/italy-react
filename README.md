@@ -1,46 +1,48 @@
-# Getting Started with Create React App
+# Guia Turístico - Itália
+Este projeto tem como principal objetivo a construção de um site de turismo/informativo sobre cidades italianas e a Itália, como um todo.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Pacotes e Dependências
 
-## Available Scripts
+**Chakra Ui**: Uma biblioteca de componentes simples, modular e acessivel.
+Emotion
 
-In the project directory, you can run:
+**Emotion**: Biblioteca para escrever css com javascript
 
-### `npm start`
+**Classnames**: Biblioteca de utilidade para usar condicionais em nomes de classes css
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Normalize**: Reseta o css, padronizando os navegadores
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**React Icons**: Biblioteca de icones do react
 
-### `npm test`
+**React Router Dom**: Biblioteca para roteamento declarado e encadeado
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**DEV**:
 
-### `npm run build`
+**Eslint**: Ferramenta de análise de código estático para identificar padrões problemáticos.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## O Projeto
+O Projeto possui:
+- 5 páginas + 1 página de erro
+- 4 Componentes
+- Imagens de cada cidade e/ou região
+- JSON com os dados utilizados na aplicação
+Os arquivos do projeto foram divididos em pastas a fim de melhorar a organização e facilitar a manutenção do código.
+Todas as páginas foram construídas com HTML **semântico**, recursos de **acessibilidade** e com foco na **usabilidade**.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Inicio
+Está página possui uma recomendação de 3 roteiros aleatórios. 
+Possui a parte **"Nossa Casa"** a qual mostra uma imagem demonstrativa da itália e o "endereço" da empresa.
+O componente `nav`, `footer` e `padrao`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Menu
+Está página demonstra o roteiro completo. É a principal página do projeto, a qual concentra a maior parte de componentes e esforço.
 
-### `npm run eject`
+Nesta página encontram-se todos os roteiros disponíveis, além de ser possível **buscar** um roteiro especifíco, **filtrar** por região e **ordenar** por quantidade de dias ou menor preço.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Além disso, é possível selecior um roteiro o qual o abre em uma página maior exibindo a descrição, região, duração e valor da viagem.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Sobre
+Página demonstrativa que faça sobre a empresa.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Formulário
+Formulário para cadastro de clientes.
