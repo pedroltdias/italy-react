@@ -15,6 +15,10 @@ export default function Menu() {
 		{
 			label: "Sobre",
 			to: "/sobre"
+		},
+		{
+			label: "Formulario",
+			to: "/formulario"
 		}
 	];
 	return (
