@@ -17,7 +17,7 @@ export default function Menu() {
 			to: "/sobre"
 		},
 		{
-			label: "Formulario",
+			label: "Cadastro",
 			to: "/formulario"
 		}
 	];

@@ -24,7 +24,8 @@ export default function Formulario() {
           fontSize="4xl"
           pb="8"
         >
-          Formulário
+          Formulário para cadastro
+
         </Center>
         <Flex
           align="center"
