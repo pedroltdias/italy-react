@@ -47,11 +47,13 @@ Página demonstrativa que faça sobre a empresa.
 ### Formulário
 Formulário para cadastro de clientes.
 
+![Formulário](./public/assets/formulario.png)
+
 ## Acessibilidade
 
 You can learn more about accessibility in a website in [Gov Accessibility](https://www.acessibilidade.gov.pt/).
 
-The result is
+The result abou the accessibility of this website is:
 
 ![Accessibility](./public/assets/acessibiliade.png)
 
