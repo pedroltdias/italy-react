@@ -46,3 +46,12 @@ Página demonstrativa que faça sobre a empresa.
 
 ### Formulário
 Formulário para cadastro de clientes.
+
+## Acessibilidade
+
+You can learn more about accessibility in a website in [Gov Accessibility](https://www.acessibilidade.gov.pt/).
+
+The result is
+
+![Accessibility](./public/assets/acessibiliade.png)
+
