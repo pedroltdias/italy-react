@@ -53,6 +53,8 @@ Página demonstrativa que fala um pouco "sobre" a empresa.
 ### Formulário
 Formulário para cadastro de clientes interessados nos roteiros.
 
+![Formulário](./public/assets/formulario.png)
+
 ## Acessibilidade
 
 Acessibilidade do site utilizando o site do governo: [Gov Accessibility](https://www.acessibilidade.gov.pt/).
