@@ -13,6 +13,11 @@ import {
 
 export default function Formulario() {
 
+  function refreshPage(){ 
+    alert("Formulário enviado com sucesso!");
+    window.location.reload(); 
+  }
+
   return (
     <Box h="100vh">
         <Center
@@ -99,13 +104,14 @@ export default function Formulario() {
                 <Button
                   w={240}
                   p="6"
-                  type="submit"
+                  type="button"
                   bg="blue.400"
                   color="white"
                   fontWeight="bold"
                   fontSize="xl"
                   mt="2"
                   _hover={{ bg: "blue.500" }}
+                  onClick={ refreshPage }
                 >
                   Enviar
                 </Button>
