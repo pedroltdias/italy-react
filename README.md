@@ -46,7 +46,10 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 You can learn more about accessibility in a website in [Gov Accessibility](https://www.acessibilidade.gov.pt/).
 
-The result is [Accessibility](./public/assets/acessibiliade.png).
+The result is
+
+![Accessibility](/assets/accessibility.png)
+
 
 ## Learn More
 
