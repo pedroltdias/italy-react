@@ -48,7 +48,7 @@ You can learn more about accessibility in a website in [Gov Accessibility](https
 
 The result is
 
-![Accessibility](/assets/accessibility.png)
+![Accessibility](./public/assets/acessibiliade.png)
 
 
 ## Learn More
