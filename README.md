@@ -6,6 +6,7 @@ Este projeto tem como principal objetivo a construção de um site de turismo/in
 - React
 - TypeScript
 - SCSS
+- Node
 
 ## Pacotes e Dependências
 
@@ -22,18 +23,43 @@ Emotion
 
 **React Router Dom**: Biblioteca para roteamento declarado e encadeado
 
+**Express**: Framework para Node que oferece recursos mínimos para construção de servidores web.
+
+**Mongoose**: Biblioteca de poo em javascript utilizada para fazer a conexão entre o MongoDB e a api.
+
 **DEV**:
 
 **Eslint**: Ferramenta de análise de código estático para identificar padrões problemáticos.
 
+**Nodemon**: Ferramenta que auxilia o desenvolvimento reiniciando o servidor automaticamente.
+
 ## O Projeto
 O Projeto possui:
+- Servidor
+	- Padrão MVC
+- Banco de dados não relacional
 - 5 páginas + 1 página de erro
 - 4 Componentes
 - Imagens de cada cidade e/ou região
 - JSON com os dados utilizados na aplicação
 Os arquivos do projeto foram divididos em pastas a fim de melhorar a organização e facilitar a manutenção do código.
 Todas as páginas foram construídas com HTML **semântico**, recursos de **acessibilidade** e com foco na **usabilidade**.
+
+## Back-End
+
+### Config 
+Repositório com o script de conexão entre servidor e banco, o ideal seria que os dados estivessem em uma pasta, ou arquivo, config, os quais seriam utilizadas variaveis ao invés dos dados, mas com o intuito de facilitar o desenvolvimento e por se tratar de um projeto com fins educativos, utilizamos os dados verdadeiros.
+
+### Controllers
+Repositório responsável pelos controllers de cada objeto criado no banco. Os controllers são responsáveis pelas ações/funções de cada objeto.
+
+### Models
+Repositório responsável pelas models de cada objeto. As models são responsáveis pela estrutura de cada objeto.
+
+### Routes
+Repositório responsável pelo endereçamento de cada ação nos objetos.
+
+## Front-End
 
 ### Inicio
 Está página possui uma recomendação de 3 roteiros aleatórios. 
