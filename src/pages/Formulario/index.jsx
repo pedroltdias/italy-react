@@ -16,27 +16,29 @@ import axios from 'axios';
 
 export default function Formulario() {
   const [inputValues, setInputValues] = useState({});
+  const [response, setResponse] = useState({});
+  const [error, setError] = useState(null);
 
   function handleChange(event) {
     setInputValues({
       ...inputValues,
-      [event.target.id]: event.target.value,
+      [event.target.id]: event.target.value
     });
   }
 
   function handleSubmit(event) {
     event.preventDefault();
 
-    axios.post('/my-form', inputValues)
+    axios.post('/formulario', inputValues)
       .then(response => {
-        console.log("Fomulário enviado com sucesso!", response)
+        setResponse(response);
       })
       .catch(error => {
-        console.log("Erro ao enviar formulário!", error)
+        setError(error);
       });
   }
 
-  function reloadPage(){ 
+  function refreshPage(){ 
     alert("Formulário enviado com sucesso!");
     window.location.reload(); 
   }
@@ -70,25 +72,25 @@ export default function Formulario() {
             p="6"
             boxShadow="0 1px 2px #ccc"
           >
-            <FormControl display="flex" flexDir="column" gap="4" onSubmit={handleSubmit}>
+            <form display="flex" flexDir="column" gap="4" onSubmit={handleSubmit}>
               <HStack spacing="4">
                 <Box w="100%">
                   <FormLabel htmlFor="nome">Nome Completo</FormLabel>
-                  <Input id="nome" onChange={handleChange} />
+                  <Input id="nome" onChange={handleChange}/>
                 </Box>
                 <Box w="100%">
                   <FormLabel htmlFor="email">E-mail</FormLabel>
-                  <Input id="email" type="email" onChange={handleChange} />
+                  <Input id="email" type="email" onChange={handleChange}/>
                 </Box>
               </HStack>
               <HStack spacing="4">
                 <Box w="100%">
                   <FormLabel htmlFor="nasc">Data de Nascimento</FormLabel>
-                  <Input id="nasc" type="date" onChange={handleChange}/>
+                  <Input id="nasc" type="date" onChange={handleChange} />
                 </Box>
                 <Box w="100%">
                   <FormLabel htmlFor="natural">Naturalidade</FormLabel>
-                  <Input id="natural" onChange={handleChange} />
+                  <Input id="natural" onChange={handleChange}/>
                 </Box>
               </HStack>
               <HStack spacing="4">
@@ -104,17 +106,17 @@ export default function Formulario() {
               <HStack spacing="4">
                 <Box w="100%">
                   <FormLabel htmlFor="endereco">Endereço</FormLabel>
-                  <Input id="endereco" onChange={handleChange}/>
+                  <Input id="endereco"  onChange={handleChange} />
                 </Box>
                 <Box w="100%">
                   <FormLabel htmlFor="cidade">Cidade</FormLabel>
                   <Input id="cidade" onChange={handleChange} />
                 </Box>
               </HStack>
-              <HStack spacing="4">
+              {/* <HStack spacing="4">
                 <Box w="100%">
                   <FormLabel>Sexo</FormLabel>
-                  <RadioGroup defaultValue="Masculino" onChange={handleChange}>
+                  <RadioGroup defaultValue="Masculino">
                     <HStack spacing="24px">
                       <Radio value="Masculino">Masculino</Radio>
                       <Radio value="Feminino">Feminino</Radio>
@@ -122,7 +124,7 @@ export default function Formulario() {
                     </HStack>
                   </RadioGroup>
                 </Box>
-              </HStack>
+              </HStack> */}
               <HStack justify="center">
                 <Button
                   w={240}
@@ -134,12 +136,12 @@ export default function Formulario() {
                   fontSize="xl"
                   mt="2"
                   _hover={{ bg: "blue.500" }}
-                  onClick={reloadPage}
+                  // onClick={ refreshPage }
                 >
                   Enviar
                 </Button>
               </HStack>
-            </FormControl>
+            </form>
           </Center>
         </Flex>
     </Box>
